@@ -1,0 +1,31 @@
+.img-box {
+    column-count: 4;
+    column-gap: 3;
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+.image {
+    max-width: 100%;
+    display: block;
+}
+.image-wrapper {
+    display: block;
+    opacity: 0.8;
+    transition: 0.4s;
+    filter: blur(3px)
+}
+.image-wrapper + .image-wrapper {
+    margin: 3px 0;
+}
+.image-wrapper:hover {
+opacity: 1;
+filter: saturate(300%);
+}
+p {
+	font-family: 'Lobster';
+
+
+
+
+}
